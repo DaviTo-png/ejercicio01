@@ -10,6 +10,8 @@ Precio: <input type="number" step="0.01" name="precio"><br>
 Cantidad: <input type="number" name="cantidad"><br>
 <button type="submit">Calcular</button>
 </form>
+
+
 <?php
 if($_POST){
 $cliente=$_POST["cliente"];
